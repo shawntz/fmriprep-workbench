@@ -4,7 +4,7 @@
 # @Description: Parse subject ID with suffix modifiers from subject list files
 
 # Maximum expected pipeline step number (adjust as pipeline steps are added)
-readonly MAX_STEP_NUMBER=6
+readonly MAX_STEP_NUMBER=14
 #
 # This utility function parses subject IDs that may include suffix modifiers
 # to provide granular control over pipeline execution.
