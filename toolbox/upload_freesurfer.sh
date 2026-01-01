@@ -318,8 +318,8 @@ if [ "$BACKUP_ORIGINALS" = true ]; then
     echo ""
 fi
 echo -e "${YELLOW}Next steps:${NC}"
-echo "1. Run fMRIPrep step 7 (full workflows) to use edited surfaces"
-echo "   ./07-run.sbatch"
+echo "1. Run fMRIPrep step 9 (full workflows) to use edited surfaces"
+echo "   ./09-run.sbatch"
 echo ""
 echo "2. fMRIPrep will automatically use the edited Freesurfer outputs"
 echo "   instead of rerunning Freesurfer reconstruction"
