@@ -127,7 +127,7 @@ SINGULARITY_CMD="singularity run --cleanenv \
 
 # base fMRIPrep command
 cmd="${SINGULARITY_CMD} ${TRIM_DIR} ${DERIVS_DIR} participant \
-  --participant-label ${subject} -w /work/ -vv \
+  --participant-label ${subject_id} -w /work/ -vv \
   --omp-nthreads ${FMRIPREP_OMP_THREADS} \
   --nthreads ${FMRIPREP_NTHREADS} \
   --mem_mb ${FMRIPREP_MEM_MB} \
